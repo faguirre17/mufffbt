@@ -1,3 +1,62 @@
 .color1{
     background-color: #F27F3D;
 }
+
+body{
+    background-image: url(/images/PELIGRO\ 00.jpg);
+}
+
+.title1{
+    background-color: #F27F3D;
+    border: 5px solid #D6B564;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.borde1{
+    border: 5px solid #D6B564;
+}
+
+.disctable {
+    text-align:center;
+    display: table;
+    margin:auto;
+
+}
+
+.imagesize {
+    height: 323px;
+    width: 323px;
+    margin-top: 20px;
+    
+}
+
+
+/*Footer*/
+
+.footer {
+    background-color: #F27F3D;
+    border: 10px solid #D6B564;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.footer__rrss {
+    list-style: none;
+    display: inline-block;
+    padding-right: 80px;
+
+    
+    
+}
+
+.footer__list {
+display: inline-block;
+margin-left: 40px;
+}
+
+
+.footer__link {
+    text-decoration: none;
+}
