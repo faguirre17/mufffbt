@@ -32,6 +32,19 @@ body{
     
 }
 
+/*nav*/
+.animacion {
+    border-radius: 10px;
+    border-color: #D6B564;
+    color: black;
+    box-shadow: 0 0 40px 40px #D6B564 inset, 0 0 0 0 #D6B564;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+  }
+.animacion:hover {
+    box-shadow: 0 0 10px 0 #D6B564 inset, 0 0 10px 4px #D6B564;
+  }
+
 
 /*Footer*/
 
@@ -59,4 +72,19 @@ margin-left: 40px;
 
 .footer__link {
     text-decoration: none;
+}
+.footer__link--image {
+    text-decoration: none;
+} 
+
+.footer__link--image:hover {
+    filter: opacity(0.9);
+    transform: scale(1.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+@media screen and (max-width:1400px) {
+ .videoclip {
+     font-size: large;
+ }
 }
