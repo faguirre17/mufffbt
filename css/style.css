@@ -96,16 +96,36 @@ body{
     object-fit: cover;
   }
   @media (min-width: 600px) {
-    .wide {
+    .section__grid-item--tall {
       grid-column: span 2;
     }
   
-    .tall {
+    .section__grid-item--wide {
       grid-row: span 2;
     }
   }
-  
+
+  /*Separador main contacto*/
+ 
+
+
+/*Formulario contacto*/
+.btn-enviar {
+  background-color: #D6B564;
+  color: #F27F3D;
+  border-color:#D6B564;
+  margin-top: 20px;
+} 
+
+.btn-enviar:hover {
+  color:#D6B564;
+  background-color: #F26699;
+  border-color: #F26699;
+} 
 /*Footer*/
+.separador {
+  margin-bottom: 215px ;
+}
 
 .footer {
     background-color: #F27F3D;
